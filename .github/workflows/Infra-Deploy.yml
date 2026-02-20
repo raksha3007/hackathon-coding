@@ -47,7 +47,7 @@ jobs:
       - name: Terraform Plan
         run: |
           terraform plan \
-            -var-file="terraform.tfvars" \
+            -var-file="dev.terraform.tfvars" \
             -out=tfplan
 
       - name: Terraform Apply
