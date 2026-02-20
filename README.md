@@ -1,1 +1,2 @@
-<img width="2420" height="1539" alt="Github Action -AKS" src="https://github.com/user-attachments/assets/97236876-c6da-4bcd-b81a-fbc3a10af17d" />
+<img width="3338" height="2363" alt="Github Action -AKS(1)" src="https://github.com/user-attachments/assets/955a06f3-9f89-4c94-9014-5b6b16de3e7b" />
+
