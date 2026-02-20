@@ -22,7 +22,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: trfm
+        working-directory: terrafrom
 
     steps:
       - name: Checkout
