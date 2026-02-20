@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 env:
-  REGISTRY: acrtesthariuse.azurecr.io
+  REGISTRY: healthcareacrdev.azurecr.io
   IMAGE_NAME_A: patient-service
   IMAGE_NAME_B: appointment-service
 
