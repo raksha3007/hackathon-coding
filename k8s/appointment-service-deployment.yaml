@@ -22,7 +22,7 @@ spec:
         image: healthcareacrdev.azurecr.io/appointment-service:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 3001
+        - containerPort: 3000
         resources:
           requests:
             cpu: "100m"
