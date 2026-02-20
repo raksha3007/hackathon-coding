@@ -19,7 +19,7 @@ spec:
         runAsUser: 1000
       containers:
       - name: appointment-service
-        image: <acrname>.azurecr.io/appointment-service:latest
+        image: healthcareacrdev.azurecr.io/appointment-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3001
