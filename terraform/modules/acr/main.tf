@@ -5,10 +5,6 @@ resource "azurerm_container_registry" "this" {
   sku                 = var.sku
   admin_enabled       = true
   
-  network_rule_set {
-    default_action = "Allow"
-  }
-  
   tags = {
     Environment = var.environment
     ManagedBy   = "Terraform"
