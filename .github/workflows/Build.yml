@@ -30,7 +30,7 @@ jobs:
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
 
       - name: Login to ACR
-        run: az acr login --name acrtesthariuse
+        run: az acr login --name $REGISTRY
 
       - name: Build and Push Service A
         run: |
