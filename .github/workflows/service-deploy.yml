@@ -36,8 +36,8 @@ jobs:
       - name: Get AKS Credentials
         run: |
           az aks get-credentials \
-            --resource-group aks-rg \
-            --name my-aks-cluster \
+            --resource-group healthcare-aks-dev-rg \
+            --name healthcare-aks-dev \
             --overwrite-existing
             
       - name: Deploy to AKS
